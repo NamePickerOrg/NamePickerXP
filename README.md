@@ -12,6 +12,9 @@
 > 
 > 如果您的大脑运作正常，且运行环境使用的系统是Windows 7及以上，请前往[NamePicker](https://github.com/NamePickerOrg/NamePicker)
 
+> [!note]
+> 
+> 当然，如果您的大脑运作不正常，或者您的运行环境系统过于老旧，亦或者您的运行环境磁盘空间十分紧张，您也可以将此版本视作NamePicker的精简版（没有引用外部资源，也没有打包三方库）
 ## 功能清单/大饼
 > 由于Tkinter过于原始，迁移至PyQt的计划将会提前
 
