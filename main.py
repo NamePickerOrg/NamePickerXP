@@ -22,7 +22,6 @@ elif os.path.exists("IDE"):
 else:
     logging.basicConfig(filename='log.log', level=logging.INFO, filemode='w')
 
-logging.info("⌈晴朗和静谧统治着一切⌋")
 class App(tkinter.Tk):
     def __init__(self):
         global allowRepeat,alwaysOnTop,showName,SupportCW,pref,pickNames,pns
@@ -33,7 +32,6 @@ class App(tkinter.Tk):
         pickNames = 1
         super().__init__()
         self.geometry("450x200")
-        self.iconbitmap("favicon.ico")
         self.loadcfg()
         self.attributes('-topmost',alwaysOnTop)
         self.title("NamePicker - 随机抽选")
